@@ -2,50 +2,43 @@
 
  ### [Video Demonstration](https://youtu.be/7eJexJVCqJo)
 
-<h2>Description</h2>
+<h2>Overview</h2>
+This project demonstrates network traffic analysis using Snort for intrusion detection and Wireshark for packet capture. I set up a Linux virtual machine to generate both normal and simulated malicious traffic, applied custom Snort rules to detect anomalies, and analyzed the traffic logs in Wireshark
+<br></br>
 
-<br />
 
+<h2>Objectives</h2>
+
+- Learn how to generate and analyze network traffic.
+- Use Snort to detect malicious activity.
+- Use Wireshark to visualize and filter captured traffic.
+- Write Snort rules to detect specific network anomalies</b> (e.g., ICMP floods, port scans, HTTP requests).
+<br></br>
 
 <h2>Tools used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Snort 3.3.5.0 (Intrusion Detection System)
+- Wireshark (Network Traffic Analyzer)
+- Ubuntu Linux VM (Traffic generation environment)
+- Traffic Simulation Tools:</b>
+ ping, hping3, curl, wget, and nmap
+<br></br>
 
-<h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
 
-<h2>Program walk-through:</h2>
+<h2>Project Setup</h2>
 
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
+<h3>1. Environment Setup</h3>
+
+
+
+<br></br> 
+
+
+<h3>2. Traffic Simulation </h3>
+<br></br>
+
+<h2>Snort Rules</h2>
 
 <!--
  ```diff
